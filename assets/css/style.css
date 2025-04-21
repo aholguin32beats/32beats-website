@@ -1,7 +1,7 @@
 /* Custom styles */
    @font-face {
       font-family: 'Toxigenesis';
-      src: url('Toxigenesis.ttf') format('truetype');
+      src: url('../fonts/Toxigenesis.ttf') format('truetype');
     }
 
     html {
