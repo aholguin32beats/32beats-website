@@ -28,7 +28,7 @@
     }
 
     header {
-      background: url('../img/dj-hero.jpg') no-repeat center center/cover;
+      background: url('../img/dj-hero.webp') no-repeat center center/cover;
       min-height: 85vh;
       display: flex;
       flex-direction: column;
