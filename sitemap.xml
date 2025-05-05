@@ -2,26 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://32beats.co/</loc>
-    <priority>1.00</priority>
+    <lastmod>2025-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://32beats.co/#nosotros</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://32beats.co/#curso</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://32beats.co/#salas</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://32beats.co/#personalizados</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://32beats.co/#contacto</loc>
-    <priority>0.60</priority>
+    <loc>https://32beats.co/landing/curso_dj_experto.html</loc>
+    <lastmod>2025-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>

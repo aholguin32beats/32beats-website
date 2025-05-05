@@ -1,88 +1,31 @@
-# 32Beats | Academia DJ
+# 32Beats | Academia DJ en Bogotá
 
-**Sitio web oficial de 32Beats**, academia y centro de práctica para DJs en Bogotá.  
-Aquí encontrarás toda la información sobre nuestros cursos, salas de práctica y clases personalizadas.
+Sitio web oficial de **32Beats**, academia de DJs con sede en Bogotá, Colombia. Aquí encontrarás toda la información sobre nuestros cursos, salas de práctica y formación personalizada.
 
-🌐 https://aholguin32beats.github.io/32beats-website/  
-(o tu dominio personalizado: https://32beats.co)
+### 🔗 Accede al sitio
 
----
+- Sitio web: [https://32beats.co](https://32beats.co)
+- Página del Curso DJ Experto: [https://32beats.co/landing/curso_dj_experto.html](https://32beats.co/landing/curso_dj_experto.html)
 
-## 📁 Contenido del sitio
+### 📂 Estructura del repositorio
 
-- `index.html` – Página principal
-- `assets/`
-  - `img/` – Imágenes del sitio (logotipo, secciones, redes)
-  - `css/style.css` – Estilos visuales del sitio
-  - `fonts/Toxigenesis.ttf` – Fuente personalizada
-  - `favicon/LOGO.png` – Ícono del sitio
-- `landing/` – Carpeta con las landing pages
-- `robots.txt` – Permite a los buscadores indexar el sitio
-- `sitemap.xml` – Mapa del sitio para SEO
+```
+/
+├── index.html                  Página principal
+├── landing/
+│   └── curso_dj_experto.html  Landing page del curso principal
+├── assets/
+│   ├── css/style.css          Estilos del sitio
+│   ├── img/                   Imágenes usadas en el sitio
+│   └── fonts/                 Fuentes personalizadas (Toxigenesis.ttf)
+├── sitemap.xml                Mapa del sitio para SEO
+├── robots.txt                 Reglas para indexación
+└── README.md                  Este archivo
+```
 
----
+### 📣 Tecnologías utilizadas
 
-## 🚀 Tecnologías
-
-- **HTML5**
-- **CSS3** (estructura modular con archivo externo)
-- **Responsive Design** (adaptado para móviles)
-- **SEO** optimizado:
-  - Meta tags
-  - Open Graph (para redes sociales)
-  - Etiquetas `schema.org` (`LocalBusiness` + `Course`)
-
----
-
-## 🛠 Cómo editar y publicar
-
-1. Clona este repositorio
-   ```bash
-   git clone https://github.com/aholguin32beats/32beats-website.git
-   ```
-
-2. Realiza los cambios que necesites en tu editor de código (VS Code recomendado)
-
-3. Sube los cambios
-   ```bash
-   git add .
-   git commit -m "Actualización del sitio"
-   git push
-   ```
-
-4. GitHub Pages publicará automáticamente los cambios en unos segundos
-
----
-
-## 🌍 Dominio personalizado
-
-Para usar [32beats.co](https://32beats.co), asegúrate de:
-
-1. Agregar `32beats.co` o `www.32beats.co` en **Settings > Pages > Custom domain**
-2. Configurar los registros **CNAME** o **A** en tu proveedor de dominio
-3. GitHub configurará automáticamente HTTPS si todo está correcto
-
----
-
-## 🧠 Créditos
-
-Este sitio fue diseñado y desarrollado por  
-**Andrés Holguín Coral** – DJ, educador y líder tecnológico.
-
-Con el apoyo de herramientas como:  
-GitHub Pages, VS Code, Canva, y ChatGPT.
-
----
-
-## 📬 Contacto
-
-📍 Bogotá, Colombia  
-📞 WhatsApp: +57 305 331 5698  
-📸 Instagram: [@32beats_co](https://www.instagram.com/32beats_co)  
-📘 Facebook: [32Beatssas](https://www.facebook.com/32beatssas)  
-🎵 TikTok: [@32beats_co](https://www.tiktok.com/@32beats_co)
-
----
-
-> 🎧 La maestría está en la práctica.  
-> ¡Conviértete en un DJ experto en 32Beats!
+- HTML5 + CSS3
+- GitHub Pages (hosting)
+- SEO optimizado (100/100 PageSpeed Insights)
+- Microdatos y JSON-LD (Schema.org)
