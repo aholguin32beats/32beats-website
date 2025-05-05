@@ -16,6 +16,7 @@ Aquí encontrarás toda la información sobre nuestros cursos, salas de práctic
   - `css/style.css` – Estilos visuales del sitio
   - `fonts/Toxigenesis.ttf` – Fuente personalizada
   - `favicon/LOGO.png` – Ícono del sitio
+- `landig/` – Carpeta con las landig pages
 - `robots.txt` – Permite a los buscadores indexar el sitio
 - `sitemap.xml` – Mapa del sitio para SEO
 
