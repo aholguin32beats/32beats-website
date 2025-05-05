@@ -61,7 +61,6 @@
       color: var(--main-color);
       margin-bottom: 1rem;
     }
-
     .btn {
       padding: 0.8rem 1.8rem;
       background-color: var(--main-color);
@@ -72,13 +71,30 @@
       border-radius: 25px;
       transition: all 0.3s ease;
     }
-
     .btn:hover {
       background-color: #0099cc;
       transform: scale(1.05);
     }
-
-    .nav-buttons {
+    .btn.agenda {
+      display: inline-block;
+      text-align: center;
+      background-color: #00cfff;
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: none;
+      border-radius: 999px;
+      min-width: 200px;
+      min-height: 48px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-sizing: border-box;
+   }
+   .btn.agenda:hover {
+      background-color: #00b5e0;
+      transform: translateY(-2px);
+   }
+   .nav-buttons {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
