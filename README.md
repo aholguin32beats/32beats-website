@@ -12,6 +12,7 @@ Sitio web oficial de **32Beats**, academia de DJs con sede en Bogotá, Colombia.
 ```
 /
 ├── index.html                  Página principal
+├── politica_datos_32beats.html Política de datos personales
 ├── landing/
 │   └── curso_dj_experto.html  Landing page del curso principal
 ├── assets/
