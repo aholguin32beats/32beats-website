@@ -272,6 +272,21 @@ footer {
   display: inline-block;
 }
 
+.img-text-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.img-text-section img {
+  max-width: 100%;
+  width: 400px;
+  border-radius: 12px;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .contacto {
@@ -316,4 +331,10 @@ footer {
     flex-direction: column !important;
     text-align: center;
   }
+
+  .img-text-section img {
+  width: 100%;
+  max-width: 100%;
+  }
+  
 }
