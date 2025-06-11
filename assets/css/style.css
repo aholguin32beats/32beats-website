@@ -1,242 +1,179 @@
 /* Custom styles */
-   @font-face {
-      font-family: 'Toxigenesis';
-      src: url('../fonts/Toxigenesis.ttf') format('truetype');
-    }
+@font-face {
+  font-family: 'Toxigenesis';
+  src: url('../fonts/Toxigenesis.ttf') format('truetype');
+}
 
-    html {
-      scroll-behavior: smooth;
-    }
+html {
+  scroll-behavior: smooth;
+}
 
-    :root {
-      --main-color: #00bfff;
-      --bg-color: #000;
-      --text-color: #fff;
-      --accent-color: #1ed760;
-    }
+:root {
+  --main-color: #00bfff;
+  --bg-color: #000;
+  --text-color: #fff;
+  --accent-color: #1ed760;
+}
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    body {
-      font-family: 'Montserrat', sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-    }
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: 1rem;
+}
 
-    header {
-      background: url('../img/dj-hero.webp') no-repeat center center/cover;
-      min-height: 85vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      position: relative;
-    }
-
-    header::after {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(0,0,0,0.6);
-    }
-
-    header * {
-      position: relative;
-      z-index: 2;
-    }
-
-    header img {
-      max-width: 300px;
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      font-family: 'Toxigenesis', sans-serif;
-      font-size: 2.5rem;
-      color: var(--main-color);
-      margin-bottom: 1rem;
-    }
-    .btn {
-      padding: 0.8rem 1.8rem;
-      background-color: var(--main-color);
-      color: #000;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1rem;
-      border-radius: 25px;
-      transition: all 0.3s ease;
-    }
-    .btn:hover {
-      background-color: #0099cc;
-      transform: scale(1.05);
-    }
-    .btn.agenda {
-      display: inline-block;
-      text-align: center;
-      background-color: #00cfff;
-      color: #000;
-      padding: 0.8rem 1.5rem;
-      font-weight: bold;
-      font-family: 'Montserrat', sans-serif;
-      text-decoration: none;
-      border-radius: 999px;
-      min-width: 200px;
-      min-height: 48px;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-      box-sizing: border-box;
-   }
-   .btn.agenda:hover {
-      background-color: #00b5e0;
-      transform: translateY(-2px);
-   }
-   .nav-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      
-      padding: 1rem;
-      gap: 1rem;
-    }
-
-    .nav-buttons a {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      background-color: var(--main-color);
-      padding: 0.6rem 1rem;
-      border-radius: 50px;
-      color: #000;
-      font-weight: bold;
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
-
-    .nav-buttons a:hover {
-      background-color: #0099cc;
-      transform: scale(1.05);
-    }
-
-    .section {
-      padding: 4rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-      text-align: center;
-    }
-
-    .section h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: var(--main-color);
-    }
-
-    .section p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin-bottom: 1.5rem;
-    }
-
-    .socials a {
-      color: var(--main-color);
-      margin: 0 1rem;
-      font-size: 1.5rem;
-      text-decoration: none;
-    }
-
-    .contacto {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 2rem;
-      align-items: flex-start;
-    }
-
-    .contact-info {
-      text-align: left;
-      flex: 1;
-    }
-
-    iframe {
-      border: none;
-      width: 100%;
-      height: 300px;
-      flex: 1;
-      min-width: 300px;
-    }
-
-    footer {
-      background-color: #111;
-      padding: 1rem;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 768px) {
-      .contacto {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .contact-info {
-        text-align: center;
-      }
-    }
-  
-.agenda { margin-bottom: 2rem; display: inline-block; }
-  
-    .img-text-section {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 2rem;
-      justify-content: center;
-    }
-    .img-text-section img {
-      max-width: 100%;
-      width: 400px;
-      border-radius: 12px;
-    }
-    .img-text-section.alt {
-      flex-direction: row-reverse;
-    }
-    @media (max-width: 768px) {
-      .img-text-section, .img-text-section.alt {
-        flex-direction: column !important;
-        text-align: center;
-      }
-    }
-  
-.socials {
+header {
+  background: url('../img/dj-hero.webp') no-repeat center center/cover;
+  min-height: 85vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
+  text-align: center;
+  position: relative;
 }
-.socials img {
-  height: 64px;
-  width: 64px;
-  object-fit: contain;
+
+header::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.6);
 }
-  
-.socials {
+
+header * {
+  position: relative;
+  z-index: 2;
+}
+
+header img {
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Toxigenesis', sans-serif;
+  font-size: 2.5rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 0.8rem 1.8rem;
+  background-color: var(--main-color);
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0099cc;
+  transform: scale(1.05);
+}
+
+.btn.agenda {
+  display: inline-block;
+  text-align: center;
+  background-color: #00cfff;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  border-radius: 999px;
+  min-width: 200px;
+  min-height: 48px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-sizing: border-box;
+}
+
+.btn.agenda:hover {
+  background-color: #00b5e0;
+  transform: translateY(-2px);
+}
+
+.nav-buttons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: baseline;
-  gap: 1.5rem;
-  margin-top: 1rem;
+  padding: 1rem;
+  gap: 1rem;
 }
-.socials img {
-  height: 70px;
-  width: 70px;
-  object-fit: contain;
-  vertical-align: middle;
+
+.nav-buttons a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--main-color);
+  padding: 0.6rem 1rem;
+  border-radius: 50px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
-  
+
+.nav-buttons a:hover {
+  background-color: #0099cc;
+  transform: scale(1.05);
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--main-color);
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.contact-info {
+  text-align: left;
+  flex: 1;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 300px;
+  flex: 1;
+  min-width: 300px;
+}
+
+footer {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+/* Sección de redes sociales */
 .socials {
   display: flex;
   justify-content: center;
@@ -244,6 +181,7 @@
   gap: 2rem;
   margin-top: 1rem;
 }
+
 .socials a {
   display: flex;
   align-items: center;
@@ -252,11 +190,15 @@
   height: 72px;
   background-color: transparent;
 }
+
 .socials img {
   height: 70px;
   width: 70px;
   object-fit: contain;
+  vertical-align: middle;
 }
+
+/* Sección curso */
 .curso-dj-experto {
   text-align: center;
   color: white;
@@ -328,4 +270,50 @@
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contacto {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  h1, h2 {
+    font-size: 1.7rem;
+  }
+
+  .btn, .btn.agenda {
+    font-size: 0.95rem;
+    min-width: 160px;
+    padding: 0.6rem 1.2rem;
+  }
+
+  table, td, tr {
+    display: block;
+    width: 100%;
+  }
+
+  td {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .img-text-section, .img-text-section.alt {
+    flex-direction: column !important;
+    text-align: center;
+  }
 }
