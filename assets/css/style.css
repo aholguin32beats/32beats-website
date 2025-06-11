@@ -276,8 +276,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 2rem;
   justify-content: center;
+  gap: 2rem;
+}
+
+.img-text-section > div {
+  flex: 1;
+  max-width: 500px;
 }
 
 .img-text-section img {
